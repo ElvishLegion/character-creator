@@ -23,12 +23,12 @@ def alignment (): #Definition of alignment function
 def Class (): #Definition of class function
     classes = ["Barb", "Bard", "Cleric", "Druid","Fighter","Monk", "Sorc", "Wizard", "Paladin", "Ranger", "Rogue", "Warlock"]
     return (random.choice(classes)) #picks class
-print ('STR: ', (drop_lowest())) #Add label to numbers generated and print the returned number
-print ('DEX: ', (drop_lowest()))
-print ('CON: ', (drop_lowest()))
-print ('INT: ', (drop_lowest()))
-print ('WIS: ', (drop_lowest()))
-print ('CHA: ', (drop_lowest()))
+print ('Attribute 1:', (drop_lowest())) #Add label to numbers generated and print the returned number
+print ('Attribute 2:', (drop_lowest()))
+print ('Attribute 3:', (drop_lowest()))
+print ('Attribute 4:', (drop_lowest()))
+print ('Attribute 5:', (drop_lowest()))
+print ('Attribute 6:', (drop_lowest()))
 
 print (race())
 print (alignment())
